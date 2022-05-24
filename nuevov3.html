@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Unilever forms widget preview site"
+    />
+    <link rel="apple-touch-icon" href="unilever-logo-175.jpg" />
+
+    <title>Form Widget - preview site</title>
+    <style>
+      .preview-form-widget {
+        width: 33%;
+        margin-left: 33%;
+        margin-right: 33%;
+        font-family: sans-serif;
+      }
+      @media (min-width: 320px) and (max-width: 1199px) {
+        .preview-form-widget {
+          margin-left: 10%;
+          margin-right: 10%;
+          width: 80%;
+        }
+      }
+      .text-center {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="text-center preview-form-widget">
+      <img class="logo" src="unilever-logo-175.jpg" height="175" width="175" alt="Unilever logo" />
+      <h1>Unilever Forms</h1>
+    </div>
+    <div class="preview-form-widget">
+      <div> Form id: <b id="formId"></b>
+      </div>
+      <div
+        class="form-widget"
+        data-mode="preview"
+        data-success-page="/success-page.html"
+        data-instant-win="/win-page.html"
+        data-instant-lose="/lose-page.html">
+      </div>
+    </div>
+    <script src="init.js"></script>
+    <link id="widget-css" rel="stylesheet" data-href="widget.css">
+    <link id="widget-rtl-css" rel="stylesheet" data-href="widget.rtl.css">
+    <script id="form-app-js" data-src="widget.js"></script>
+  </body>
+</html>

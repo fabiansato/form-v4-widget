@@ -1,0 +1,100 @@
+<div class="contact-form-wrapper">
+  <div class="row">
+    <div class="productoMobile animate__animated animate__fadeInDown animate__delay-1s">
+
+      <img src="assets/img/producto_movil.webp" class="imagenMobile" alt="Banner de Dove Promo Verano, participá por increíbles experiencias de Big Box">
+
+    </div>
+
+    <div class="section-title mb-40">
+      <br /><br /><br /><br /><br />
+      <h1 class="mb-15 animate__animated animate__fadeInDown animate__delay-1s" style="font-size:3em; padding-bottom: 20px;">Promo Finalizada
+      </h1>
+
+     <!--  <h2 class="mb-15 animate__animated animate__fadeInDown animate__delay-1s" style="font-size:2.5em">Los esperamos en
+        el próximo sorteo de Dove.</h2>-->
+      <h3 class="mb-15 animate__animated animate__fadeInDown animate__delay-1s" style="font-size:2em; padding-bottom: 20px;">Los esperamos en
+        el próximo sorteo de Dove</h3>
+          <h3 class="mb-15 animate__animated animate__fadeInDown animate__delay-1s" style="font-size:2em; padding-bottom: 20px;">¡Dove no te
+            abandona!</h3><br/>
+    </div>
+<br />
+    <div class="col-md-12">
+      <div class="form-button">
+        <button onclick="location.href='https://www.Dove.com/ar/'" type="submit" class="button radius-10"><b>Ver Sitio</b> </button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-s-12 justify-content-center text-center">
+        <b data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <u class="nombreLabels text-center" style="text-align:center;">
+            <br /><br />
+            Ver bases y condiciones</u>
+        </b>
+      </div>
+    </div>
+<div class="col-xs-12 disclaimer">
+  <br />
+  <p style=" font-size: 0.7em;" class="nombreLabels">
+    En Unilever estamos comprometidos con la protección de su privacidad y de su información personal. Para
+    obtener más información, visite nuestro <a
+      href="https://www.unilevernotices.com/argentina/spanish/privacy-notice/notice.html" target="_blank"
+      style="color: #fff">
+      <u><b class="nombres"> Aviso de privacidad</b></u> </a>y <a
+      href="https://www.unilevernotices.com/argentina/spanish/cookie-notice/notice.html" target="_blank"
+      style="color: #fff">
+      <u><b class="nombres"> Aviso de cookies.</b></u></a></p>
+  </b>
+  </div>
+
+  </div>
+</div>
+
+
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+
+          } else {
+
+            enviar();
+            completeRegistration();
+            cerrarformulario();
+            //googleCompleteRegistration();
+
+
+
+
+
+
+
+
+          }
+
+          form.classList.add('was-validated')
+
+        }, false)
+
+      })
+  })()
+</script>
+
+<!--
+     <p class="text-light" id="demo"></p>
+<button onclick="completeRegistration()">TESTEAR PIXELS</button>
+    -->

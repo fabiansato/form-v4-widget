@@ -1,0 +1,25 @@
+body {
+    font:1.5em 'Gilroy', sans-serif;
+    color: #0a1363;
+    width: 900;
+    }
+
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.proximamente{
+    text-align: center;
+
+}
+
+
+@media (max-width: 600px) {
+.banner{
+
+    width: 80%;
+}
+}
